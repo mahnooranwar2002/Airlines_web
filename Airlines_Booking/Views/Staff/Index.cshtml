@@ -1,0 +1,66 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+
+
+@{
+    Layout = "../shared/staffDashboardlayout.cshtml";
+}
+
+ 
+<div class="container-fluid">
+    <div class="main-content">
+        <h1>Staff Panel</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-count">
+                    <div class="card-body">
+                        <div class="count">  @TempData["flight_count"]</div>
+                        <div class="icon">
+                            <i class='bx bxs-plane-take-off'></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        Total Flights
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-count">
+                    <div class="card-body">
+                        <div class="count"> @TempData["booking_count"]</div>
+                        <div class="icon">
+                            <i class='bx bx-bookmark-plus'></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        Total Flight Booking
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-count">
+                    <div class="card-body">
+                        <div class="count"> @TempData["booking_packages"]</div>
+                        <div class="icon">
+                            <i class='bx bx-bookmark-alt'></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        Total Packages Booking
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    

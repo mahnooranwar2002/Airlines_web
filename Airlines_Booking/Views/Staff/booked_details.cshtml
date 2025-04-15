@@ -1,0 +1,155 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+
+@{
+    Layout = "../shared/staffDashboardlayout.cshtml";
+}
+
+@* <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card custom-card">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.booking_data.name</h5>
+                    <p class="card-text"><strong>Ticket ID:</strong> @Model.booking_data.ticket_id</p>
+                    <p class="card-text"><strong>Email:</strong> @Model.booking_data.email</p>
+                    <p class="card-text"><strong>Phone Number:</strong> @Model.booking_data.Phone_number</p>
+                    <p class="card-text"><strong>Date:</strong> @Model.booking_data.date</p>
+                    <p class="card-text"><strong>Baggage Weight:</strong> @Model.booking_data.barrage</p>
+                    <p class="card-text"><strong>Number of Passengers:</strong> @Model.booking_data.Number_of_passengers</p>
+                    <p class="card-text"><strong>Broadpass:</strong> @Model.booking_data.broadpass</p>
+                    <p class="card-text"><strong>Price:</strong> @Model.booking_data.price</p>
+                    <p class="card-text"><strong>Total:</strong> @Model.booking_data.total</p>
+                    <p class="card-text"><strong>Category:</strong> @Model.booking_data.category</p>
+                    <p class="card-text"><strong>Payment Mode:</strong> @Model.booking_data.paymentofmode</p>
+                    <p class="card-text"><strong>CVV:</strong> @Model.booking_data.cvv</p>
+                    <p class="card-text"><strong>Seat Number:</strong> @Model.booking_data.seat_num</p>
+
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div> *@
+@* <style>
+   
+    .custom-card {
+        border-radius: 10px; 
+        border: 1px solid #ddd; 
+        background-color: #fff; 
+        padding: 20px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        transition: all 0.3s ease; 
+    }
+
+        .custom-card:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+            transform: translateY(-5px); 
+        }
+
+    .card-title {
+        font-size: 1.5rem;
+        color: white;
+        margin-bottom: 15px;
+        background-color:#10b981;
+    }
+
+    .card-text {
+        font-size: 1rem; 
+        margin-bottom: 10px; 
+        color: #333; 
+    }
+
+    .btn-success {
+        background-color: #10b981; /
+        border-color: #10b981; 
+    }
+
+        .btn-success:hover {
+            background-color: #0e8f6c; 
+            border-color: #0e8f6c; /* Border color on hover */
+        }
+
+    
+</style> *@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Card</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+       
+        .custom-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background: linear-gradient(135deg, #f6f9fc, #e9eff4);
+            border: 2px solid #10b981;
+        }
+
+            .custom-card .card-body {
+                padding: 30px;
+            }
+
+            .custom-card .card-title {
+                font-size: 1.6rem;
+                font-weight: bold;
+                color: #10b981;
+                margin-bottom: 25px;
+                display: flex;
+                align-items: center;
+            }
+
+                .custom-card .card-title i {
+                    margin-right: 10px;
+                    font-size: 1.8rem;
+                }
+
+            .custom-card .card-text {
+                font-size: 1rem;
+                color: #333;
+                margin-bottom: 15px;
+                display: flex;
+                align-items: center;
+            }
+
+                .custom-card .card-text i {
+                    margin-right: 10px;
+                    color: #10b981;
+                    font-size: 1.2rem;
+                }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card custom-card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-user"></i>@Model.booking_data.name</h5>
+                        <p class="card-text"><i class="fas fa-ticket-alt"></i><strong>Ticket ID:</strong> @Model.booking_data.ticket_id</p>
+                        <p class="card-text"><i class="fas fa-envelope"></i><strong>Email:</strong> @Model.booking_data.email</p>
+                        <p class="card-text"><i class="fas fa-phone-alt"></i><strong>Phone Number:</strong> @Model.booking_data.Phone_number</p>
+                        <p class="card-text"><i class="fas fa-calendar-alt"></i><strong>Date:</strong> @Model.booking_data.date</p>
+                        <p class="card-text"><i class="fas fa-suitcase"></i><strong>Baggage Weight:</strong> @Model.booking_data.barrage</p>
+                        <p class="card-text"><i class="fas fa-users"></i><strong>Number of Passengers:</strong> @Model.booking_data.Number_of_passengers</p>
+                        <p class="card-text"><i class="fas fa-passport"></i><strong>Broadpass:</strong> @Model.booking_data.broadpass</p>
+                        <p class="card-text"><i class="fas fa-dollar-sign"></i><strong>Price:</strong> @Model.booking_data.price</p>
+                        <p class="card-text"><i class="fas fa-coins"></i><strong>Total:</strong> @Model.booking_data.total</p>
+                        <p class="card-text"><i class="fas fa-tags"></i><strong>Category:</strong> @Model.booking_data.category</p>
+                        <p class="card-text"><i class="fas fa-credit-card"></i><strong>Payment Mode:</strong> @Model.booking_data.paymentofmode</p>
+                        <p class="card-text"><i class="fas fa-key"></i><strong>CVV:</strong> @Model.booking_data.cvv</p>
+                        <p class="card-text"><i class="fas fa-chair"></i><strong>Seat Number:</strong> @Model.booking_data.seat_num</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

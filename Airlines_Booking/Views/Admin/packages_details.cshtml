@@ -1,0 +1,116 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+
+
+@{
+    Layout = "../shared/adminDashboard_layout.cshtml";
+}
+@if (TempData["plan_added"] != null)
+{
+    <script>
+        alert("@TempData["plan_added"]");
+    </script>
+}
+@* for add *@
+<div class="modal fade" id="addPassengerModal" tabindex="-1" aria-labelledby="addPassengerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addPassengerModalLabel">Add New Packages</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" asp-action="add_packages" asp-controller="admin">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="Name" id="name" required pattern="[A-Za-z0-9]{3,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Price</label>
+                        <input type="text" class="form-control" name="Price" id="name" required pattern="[0-9]{2,}" tittle="the count of seat must be greater then 9" placeholder="Enter seats">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Quantity</label>
+                        <input type="text" class="form-control" name="Quantity" id="name" required pattern="[0-9]{2,}" tittle="the count of seat must be greater then 9" placeholder="Enter Seats">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Description</label>
+                        <textarea class="form-control" name="Description"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn1 btn-block">Add Package</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid ">
+    <div class="main-content">
+        <h1>Packages Management</h1>
+        <div class="card">
+            <div class="card-header">Packages List</div>
+            <div class="card-body table-responsive">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <form class="d-flex" style="flex: 1;">
+                        <input type="text" class="form-control" name="textsearch" id="searchPassenger" placeholder="Search for package by Name...">
+                        <button class="btn btn1 ml-2" type="submit">Search</button>
+                    </form>
+                    <button class="btn btn1  ml-3" data-toggle="modal" data-target="#addPassengerModal">Add Package</button>
+                </div>
+            </div>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Description</th>
+                       
+
+                        <th class="thend" style="padding-right:3%;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var data in Model.packages_record)
+                    {
+                        <tr>
+                            <td>@data.Name</td>
+                            <td>@data.Price</td>
+                            <td>@data.Quantity</td>
+                            <td>@data.Description</td>
+                            <td class="thend">
+
+                                <button class="btn btn-success btn-sm" id="edit" >
+                                    <a style="color:white;"
+                                       href="@Url.Action("update_package","admin",new{id=data.Id})"> <i class="fas fa-edit"></i></a>
+
+
+                                </button>
+                                <button class="btn btn-danger btn-sm" onclick="confirmDelete('P1')">
+                                    <a style="color:white;" href="@Url.Action("delete_Package","admin",new{id=data.Id})">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+
+
+
+                </tbody>
+            </table>
+            @if (TempData["msg"] != null)
+            {
+                <h4 style="color:red;text-align:center;">@TempData["msg"]</h4>
+            }
+        </div>
+    </div>
+</div>
+
+

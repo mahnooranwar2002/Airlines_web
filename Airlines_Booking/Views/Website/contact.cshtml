@@ -1,0 +1,130 @@
+﻿@if (TempData["error123"] != null)
+{
+    <script>
+        alert("@TempData["error123"]");
+    </script>
+}
+<style>
+    .page-title-area {
+        background-image: url('/assets/images/userlogin.jpg');
+    }
+
+        .page-title-area h1 {
+            color: black;
+        }
+
+        .page-title-area h6 {
+            color: black;
+        }
+</style>  <!-- Start Page Title Area -->
+        <div class="page-title-area position-relative z-1">
+            <div class="container">
+                <div class="page-title-content text-center">
+                    <h1>Contact us</h1>
+                    <h6 class="mx-auto">Welcome to Our World, Where Innovation Meets Purpose, and Possibilities Unfold.</h6>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Title Area -->
+    
+        <!-- Start Contact Area -->
+        <div class="contact-area pt-100 pb-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contact-content">
+                            <div class="image">
+                                <img src="~/assets/images/contact-image.jpg" alt="contact-image">
+                            </div>
+                            <div class="content">
+                                <span class="d-block">Madison Airport</span>
+                                <h3>2105 S Medisson ave Pembroke Pines, FL 28260</h3>
+                            </div>
+                            <div class="content mb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6">
+                                        <span class="d-block">Email Support</span>
+                                        <ul class="list-unstyled ps-0">
+                                            <li>
+                                                <a href="">yoursiteinfoAvelocom</a>
+                                            </li>
+                                            <li>
+                                                <a href="">exampleAveloemailcom</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-6">
+                                        <span class="d-block">Let's Talk</span>
+                                        <ul class="list-unstyled ps-0 mb-0">
+                                            <li>
+                                                <a href="tel:9288006780">Phone : +92 ( 8800 ) - 6780</a>
+                                            </li>
+                                            <li>
+                                                <a href="tel:0066680900">Fax : + 00 66680 900</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <div class="title">
+                                <h2>Send Us a Message</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscin elit. Ut elit tellus luctus nec ullamcor mattis pulvinar dapibus leo.</p>
+                            </div>
+                    <form method="post">
+                        <div class="form-group">
+                            <label>
+                                Your Name
+                            </label>
+                            <input name="name" pattern="{Aa-Zz}[3,]" title="Name should be length of 3" type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <label>
+                                        Your Phone
+                                    </label>
+                                    <input name="number" title="Number should be length of 11" pattern="{0-9}[11]" type="text" class="form-control" placeholder="Your Phone">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <label>
+                                        Your Email
+                                    </label>
+                                    <input name="email" type="email" class="form-control" placeholder="Your Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                Subject
+                            </label>
+                            <input name="subject" pattern="{Aa-Zz}[3,]" type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                Message
+                            </label>
+                            <textarea name="msg" class="form-control textarea" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="default-btn">
+                            Send Message
+                            <i class="ph ph-arrow-right"></i>
+                        </button>
+                    </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact Area -->
+
+        <!-- Start Contact Map -->
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.8519049853484!2d114.17725747336722!3d22.300418736749894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ee492bbc0d%3A0x537f183d69286e9e!2sUrban%20Council%20Centenary%20Garden!5e0!3m2!1sen!2sbd!4v1698038945202!5m2!1sen!2sbd"></iframe>
+        </div>
+        <!-- End Contact Map -->

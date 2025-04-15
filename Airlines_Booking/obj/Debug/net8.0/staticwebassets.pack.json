@@ -1,0 +1,1373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Airlines_Booking.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Airlines_Booking.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\Adminpanel\\css\\dashboard_style.css",
+      "PackagePath": "staticwebassets\\Adminpanel\\css\\dashboard_style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\1.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\1716656488.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\1716656488.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\448318234_7810641632335648_3001280728386792260_n.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\448318234_7810641632335648_3001280728386792260_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\WhatsApp Image 2024-08-21 at 02.42.47_7daba4dc.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\WhatsApp Image 2024-08-21 at 02.42.47_7daba4dc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\akash.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\akash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\hadiya.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\hadiya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\jasmin.png",
+      "PackagePath": "staticwebassets\\adminimages\\jasmin.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\mypic.png",
+      "PackagePath": "staticwebassets\\adminimages\\mypic.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\profile img.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\profile img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\usb dongle.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\usb dongle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\adminimages\\wifi-router.jpg",
+      "PackagePath": "staticwebassets\\adminimages\\wifi-router.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\_preloader.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_preloader.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\responsive.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\responsive.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\scrollCue.css",
+      "PackagePath": "staticwebassets\\assets\\css\\scrollCue.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\css\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\bold\\Phosphor-Bold.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bold\\Phosphor-Bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\bold\\Phosphor-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bold\\Phosphor-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\bold\\Phosphor-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bold\\Phosphor-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\bold\\Phosphor-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bold\\Phosphor-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\bold\\style.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bold\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\fill\\Phosphor-Fill.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fill\\Phosphor-Fill.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\fill\\Phosphor-Fill.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fill\\Phosphor-Fill.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\fill\\Phosphor-Fill.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fill\\Phosphor-Fill.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\fill\\Phosphor-Fill.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fill\\Phosphor-Fill.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\fill\\style.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fill\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\regular\\Phosphor.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\regular\\Phosphor.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\regular\\Phosphor.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\regular\\Phosphor.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\regular\\Phosphor.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\regular\\Phosphor.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\regular\\Phosphor.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\regular\\Phosphor.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\fonts\\regular\\style.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\regular\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\about\\about1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\about\\about2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\about\\about3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about3.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\about\\about4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\about\\about5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\about\\ribbons-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\ribbons-2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\about\\ribbons.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\ribbons.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\airplanes\\airplanes-card-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\airplanes\\airplanes-card-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\airplanes\\airplanes-card-shape.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\airplanes\\airplanes-card-shape.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\airplanes\\airplanes1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\airplanes\\airplanes1.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\airplanes\\airplanes2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\airplanes\\airplanes2.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\banners\\banner-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\banners\\banner-bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\banners\\banner-bg-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\banners\\banner-icon-shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-icon-shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\banners\\banner-icon-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-icon-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\banners\\banner-widget-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-widget-1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\banners\\banner1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\banner1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\banners\\leaf.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banners\\leaf.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blog3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog-card-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog-card-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\blogs\\blog9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blogs\\blog9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\checkout\\checkout-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\checkout\\checkout-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\checkout\\checkout1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\checkout\\checkout1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\checkout\\checkout2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\checkout\\checkout2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\checkout\\checkout3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\checkout\\checkout3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\checkout\\checkout4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\checkout\\checkout4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\contact-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\cta-bg-shape.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cta-bg-shape.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\cta-bg-shape2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cta-bg-shape2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\customers\\customer-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\customers\\customer-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\customers\\customer1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\customers\\customer1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\customers\\customer2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\customers\\customer2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\destinations\\destinations9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destinations\\destinations9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\facebook-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\facebook-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\faq\\faq1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\faq\\faq1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\faq\\faq2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\faq\\faq2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\faq\\faq3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\faq\\faq3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\faq\\faq4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\faq\\faq4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\features\\features-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\features-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\features\\features-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\features-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\features\\features-3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\features-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\features\\features-card-hover.png",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\features-card-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\flight-booking\\flight-booking-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flight-booking\\flight-booking-1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\flight-booking\\flight-booking-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flight-booking\\flight-booking-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery27.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\gallery\\gallery9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\google-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\google-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\login-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\login-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\mah.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\mah.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\message.png",
+      "PackagePath": "staticwebassets\\assets\\images\\message.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\newsletter\\newsletter1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\newsletter\\newsletter1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\newsletter\\newsletter2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\newsletter\\newsletter2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\page-title-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\page-title-bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\page-title-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner-card-shape.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner-card-shape.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner1.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner10.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner10.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner11.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner11.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner12.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner12.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner13.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner13.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner14.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner14.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner15.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner15.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner16.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner16.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner2.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner3.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner4.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner4.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner5.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner5.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner6.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner6.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner7.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner7.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner8.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner8.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\partners\\partner9.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner9.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications5.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\icon1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\icon2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\icon2.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\icon3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\icon3.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\icon4.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\icon4.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\icon5.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\icon5.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\icon6.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\icon6.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\icon7.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\icon7.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\icon8.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\icon8.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\performance-specifications1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\performance-specifications1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\performance-specifications2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\performance-specifications2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\performance-specifications3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\performance-specifications3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\performance-specifications4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\performance-specifications4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\performance-specifications\\performance-specifications5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\performance-specifications\\performance-specifications5.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\preloader.png",
+      "PackagePath": "staticwebassets\\assets\\images\\preloader.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\pricing-bg-shape.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pricing-bg-shape.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\private-flight\\bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\private-flight\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\private-flight\\private-flight1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\private-flight\\private-flight1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\private-flight\\private-flight2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\private-flight\\private-flight2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\private-flight\\private-flight3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\private-flight\\private-flight3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\quote-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\quote-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\reg-banner.png",
+      "PackagePath": "staticwebassets\\assets\\images\\reg-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\request-quote-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\request-quote-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\services\\bg-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\services\\bg-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\services\\services1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\services\\services1.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\services\\services2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\services\\services2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\services\\services3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\services\\services3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\services\\services4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\services\\services4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape10.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape11.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape12.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape13.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape14.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape15.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape3.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape4.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape5.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape6.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape7.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape8.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\shapes\\shape9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shapes\\shape9.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\special-offer.png",
+      "PackagePath": "staticwebassets\\assets\\images\\special-offer.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\team\\team-shape1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-shape1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\team\\team-shape2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-shape2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\team\\team1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\team\\team2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\team\\team3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\team\\team4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\team\\team5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\team\\team6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\testimonial\\testimonial-bg-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial-bg-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\testimonial\\testimonial1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\testimonial\\testimonial2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\testimonial\\testimonial3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\testimonial\\testimonial4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\testimonial\\testimonial5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\testimonial\\testimonial6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\user-circle-regular-240.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user-circle-regular-240.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\userlogin.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\userlogin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\users\\user1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\user1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\images\\white-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\white-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\js\\meanmenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\meanmenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\assets\\js\\scrollCue.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scrollCue.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\css\\waited_page.css",
+      "PackagePath": "staticwebassets\\css\\waited_page.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\htmlpage.html",
+      "PackagePath": "staticwebassets\\htmlpage.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\userlogin\\mah.jpeg",
+      "PackagePath": "staticwebassets\\userlogin\\mah.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\- Shopease - Google Chrome 2024-09-29 14-50-01.mp4",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\- Shopease - Google Chrome 2024-09-29 14-50-01.mp4"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Dashbroad.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Dashbroad.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (1).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (10).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (10).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (11).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (11).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (12).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (12).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (13).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (13).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (14).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (14).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (15).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (15).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (16).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (16).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (17).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (17).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (18).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (18).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (2).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (3).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (3).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (4).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (4).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (5).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (5).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (6).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (6).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (7).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (7).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (8).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (8).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Screenshot (9).png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Screenshot (9).png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\Untitled.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\Untitled.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\booking.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\booking.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\broading_pass.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\broading_pass.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\contact.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\contact.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\flight.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\flight.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\footer.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\footer.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\history.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\history.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\index2.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\index2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\index3.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\index3.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\index4.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\index4.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\packages.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\packages.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\sidebar.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\sidebar.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\staff booking.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\staff booking.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\staff packages.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\staff packages.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\staff panel.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\staff panel.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\staff sidebar.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\staff sidebar.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL 7490\\Documents\\vision project\\Shopesefinalvision\\Shopesefinalvision\\Airlines_Booking\\wwwroot\\videos and screenshoots\\user_login.png",
+      "PackagePath": "staticwebassets\\videos and screenshoots\\user_login.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Airlines_Booking.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Airlines_Booking.props",
+      "PackagePath": "build\\Airlines_Booking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Airlines_Booking.props",
+      "PackagePath": "buildMultiTargeting\\Airlines_Booking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Airlines_Booking.props",
+      "PackagePath": "buildTransitive\\Airlines_Booking.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

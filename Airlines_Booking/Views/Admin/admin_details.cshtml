@@ -1,0 +1,134 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+
+
+@{
+    Layout = "../shared/adminDashboard_layout.cshtml";
+}
+@* for add *@
+
+@if (TempData["error"] != null)
+{
+    <script>
+        alert("@TempData["error"]");
+    </script>
+}
+<div class="modal fade" id="addPassengerModal" tabindex="-1" aria-labelledby="addPassengerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addPassengerModalLabel">Add New Admin</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" asp-action="add_admin" asp-controller="admin" enctype="multipart/form-data">
+                   
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="admin_name" id="name" required pattern="[A-Za-z0-9]{3,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="text" class="form-control" name="admin_email" required id="name" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Paasword</label>
+                        <input type="text" class="form-control" name="admin_password" required minlength="8" title="Password must be at least 8 characters long." id="name" placeholder="Enter password">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">comfrim Password</label>
+                        <input type="text" name="comfirm_password" class="form-control" required
+                        minlength="8" title="Password must be at least 8 characters" placeholder="Enter comfrim password">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Profile Picture</label>
+                        <input type="file" name="admin_Image">
+                    </div>
+                    <button type="submit" class="btn btn1 btn-block">Add Admin</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="main-content">
+        <h1>Admin Management</h1>
+        <div class="card">
+            <div class="card-header">Admin List</div>
+            <div class="card-body table-responsive">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <form class="d-flex" style="flex: 1;">
+                        <input type="text" class="form-control" name="textsearch" id="searchPassenger" placeholder="Search for Admin by Name or Email...">
+                        <button class="btn btn1 ml-2" type="submit">Search</button>
+                    </form>
+                    <button class="btn btn1 ml-3" data-toggle="modal" data-target="#addPassengerModal">Add Admin</button>
+                </div>
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>Status</th>
+                            <th class="thend" style="padding-right:6%;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var data in Model.adminrecord)
+                        {
+                            <tr>
+                                <td>@data.admin_name</td>
+                                <td>@data.admin_email</td>
+                                <td>@data.admin_password</td>
+                                <td>@data.status_update</td>
+                                <td class="thend">
+                                    <button class="btn btn-primary btn-sm" title="Status">
+                                        <a style="color:white;" href="@Url.Action("status_admin", "admin", new { id = data.id })">
+                                            <i class="fas fa-toggle-on"></i>
+                                        </a>
+                                    </button>
+
+                                    <button class="btn btn-success btn-sm" id="edit" rowid="@data.id" title="Update">
+                                        <a style="color:white;" href="@Url.Action("update_admin", "admin", new { id = data.id })">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                    </button>
+
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete('P1')" title="Delete">
+                                        <a style="color:white;" href="@Url.Action("admin_delete", "admin", new { id = data.id })">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </button>
+
+                                    <button class="btn btn-info btn-sm" title="Details">
+                                        <a style="color:white;" href="@Url.Action("detailspage", "admin")">
+                                            <i class="fas fa-info-circle"></i>
+                                        </a>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                @if (TempData["msg"] != null)
+                {
+                    <h4 style="color:red;text-align:center;">@TempData["msg"]</h4>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+    .thend{
+        text-align:end;
+    }
+</style>
+

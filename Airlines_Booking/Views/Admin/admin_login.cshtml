@@ -1,0 +1,234 @@
+﻿@if (TempData["errormsg"] != null)
+{
+    <script>
+        alert('@TempData["errormsg"]');
+    </script>
+}
+
+
+<style>
+    .cover {
+        position: relative;
+        background-image: url('/assets/images/reg-banner.png');
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        width: 100%;
+    }
+
+    .overlay-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .overlay-content h4 {
+            margin: 0;
+            text-align: right;
+        }
+
+    .login-container {
+        display: flex;
+        justify-content: center;
+        margin-top: -20px;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .form-container {
+        flex: 0.6;
+        background: #e7e7e7;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 1%;
+        flex: 0.3;
+        background: #e7e7e7;
+        padding: 10px;
+        height: fit-content;
+        width: 100%;
+        /
+    }
+
+
+    .containerf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .login-box {
+        width: 100%;
+        max-width: 500px;
+        padding: 20px;
+        position: relative;
+        background: transparent;
+        text-align: center;
+        box-shadow: 0 15px 25px black;
+        border-radius: 0px;
+        justify-content: center;
+        margin-top: -5%;
+    }
+
+        .login-box .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: -60px;
+            left: calc(50% - 50px);
+        }
+
+            .login-box .avatar img {
+                width: 100%;
+                height: 100%;
+            }
+
+        .login-box h1 {
+            margin: 0 0 20px;
+            padding: 0;
+            color: #333333;
+            text-align: left;
+        }
+
+        .login-box .textbox {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+            .login-box .textbox input {
+                width: 90%;
+                padding: 10px 10px 10px 40px;
+                background: white;
+                border: none;
+                outline: none;
+                color: #000000;
+                font-size: 18px;
+                border-radius: 5px;
+                box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+            }
+
+            .login-box .textbox i {
+                position: absolute;
+                top: 43%;
+                left: 10px;
+                transform: translateY(-50%);
+                color: #999999;
+            }
+
+    input::placeholder {
+        color: #000000;
+        opacity: 1;
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    .login-box .btn {
+        width: 100%;
+        background: #10b981;
+        border: none;
+        padding: 0px;
+        cursor: pointer;
+        font-size: 18px;
+        color: #000000;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+
+        .login-box .btn:hover {
+            background: #0c9467;
+        }
+
+    .login-box .options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+        gap: 10px;
+    }
+
+        .login-box .options a {
+            text-decoration: none;
+            color: #000000;
+            transition: color 0.3s;
+            font-size: 15px;
+        }
+
+            .login-box .options a:hover {
+                color: #0c9467;
+                color: #000000;
+            }
+
+    .login-box p {
+        margin-top: 20px;
+        color: #666666;
+    }
+
+</style>
+
+<div class="cover">
+    <div class="overlay-content">
+        <h4>Welcome to Shopease  Airline</h4>
+    </div>
+</div>
+
+<div class="login-container">
+    <div class="containerf">
+        <div class="login-box">
+            <div class="avatar">
+                <img src="~/assets/images/user-circle-regular-240.png" alt="Avatar">
+            </div>
+            <h1>Admin  Login</h1>
+            <h6>Please fill in the details below to complete your Login </h6>
+            <form method="POST">
+                <div class="textbox">
+                    <i class='bx bxs-user'></i>
+                    <input type="text" placeholder="Admin email" name="adminemail" pattern="[a-z0-9._%+-]+[a-z0-9.-]+\.[a-z]{2,}$"
+                           title="Please enter a valid email address."
+                           required>
+                </div>
+                <div class="textbox">
+                    <i class='bx bxs-lock'></i>
+                    <input type="password" placeholder="Password" name="adminpassword" required minlength="6" title="Password must be at least5 characters long.">
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="options">
+                    <div>
+                        <a href="@Url.Action("user_register","user")">Create Account</a>
+                    </div>
+                    <div>
+                        <a href="@Url.Action("user_login","user")">User Login</a>
+                    </div>
+                    <div>
+                        <a href="@Url.Action("admin_login","admin")">Admin Login</a>
+                    </div>
+                    <div>
+                        <a href="@Url.Action("staff_login","staff")">Staff Login </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="content">
+        <h3>About Us</h3>
+        <p>Shopease Airline offers you the best air travel experience. With us, you can fly to multiple destinations worldwide. Join us today!</p>
+    </div>
+</div>
+
+

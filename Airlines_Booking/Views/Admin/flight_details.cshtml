@@ -1,0 +1,274 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+
+
+@{
+    Layout = "../shared/adminDashboard_layout.cshtml";
+}
+@if (TempData["flight_added"] != null)
+{
+    <script>
+        alert("@TempData["flight_added"]");
+    </script>
+}
+@* for add *@
+
+<div class="modal fade" id="addPassengerModal" tabindex="-1" aria-labelledby="addPassengerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addPassengerModalLabel">Add New Flight</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" asp-action="add_flight" asp-controller="admin" id="dateForm">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="Name" id="name" required  title="flight must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name"> Price</label>
+                        <input type="text" class="form-control" name="Price" id="name" pattern="[0-9]{3,}" required placeholder="Enter price">
+                    </div>
+                   
+                    <div class="form-group">
+                        <label for="name">Timing</label>
+                        <input type="time" class="form-control" name="Timing" id="name" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Arrived time</label>
+                        <input type="time" class="form-control" name="arrived_time" id="name" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Date</label>
+                        <input type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" class="form-control" name="airline_date"  required >
+                    </div>
+                     <div class="form-group">
+                        <label for="name">Seat for Economy Class</label>
+                        <input type="text" class="form-control" name="economy_seats" id="dateInput" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                     <div class="form-group">
+                        <label for="name">Seat for Business Class</label>
+                        <input type="text" class="form-control" name="busneiss_seats" id="dateInput" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    
+                        <div class="form-group">
+                            <label for="name">Departure</label>
+                            <select id="gender" name="city_id" required>
+                                <option hidden>Travel from City</option>
+                                @foreach (var data in Model.cityrecord)
+                                {
+                                    <option value="@data.id">@data.city_name</option>
+                                }
+                            </select>
+                    </div>
+                 <div class="form-group">
+                        <label for="name">selct plane</label>
+                        <select id="gender" name="Plane_id" required>
+                            <option hidden>Select the plane</option>
+                            @foreach (var data in Model.plan_record)
+                            {
+                                <option value="@data.id">@data.plan_name</option>
+                            }
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Select Country</label>
+                        <select id="gender" name="travel_from" required>
+                            <option hidden>tarvel from of country</option>
+                            @foreach (var data in Model.countries_record)
+                            {
+                                <option value="@data.Id">@data.Name</option>
+                            }
+                        </select>
+
+                        <div class="form-group">
+                            <label for="name">selct Country</label>
+                            <select id="gender" name="travel_to" required>
+                                <option hidden>Travel to of Country</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Canada">Canada</option>
+                                <option value="China">China</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="France">France</option>
+                                <option value="Germany">Germany</option>
+                                <option value="India">India</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="Russia">Russia</option>
+                                <option value="Saudi Arabia">Saudi Arabia</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="South Korea">South Korea</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Turkey">Turkey</option>
+                                <option value="United Arab Emirates">United Arab Emirates</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="United States">United States</option>
+                                <option value="Vietnam">Vietnam</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Bangladesh">Bangladesh</option>
+
+                            </select>
+                            <label for="travel_to">Select City</label>
+                            <select id="travel_to" name="cities" required>
+                                <option hidden>Travel to a city</option>
+                                <option value="new_york">New York, USA</option>
+                                <option value="london">London, UK</option>
+                                <option value="tokyo">Tokyo, Japan</option>
+                                <option value="paris">Paris, France</option>
+                                <option value="sydney">Sydney, Australia</option>
+                                <option value="toronto">Toronto, Canada</option>
+                                <option value="dubai">Dubai, UAE</option>
+                                <option value="mumbai">Mumbai, India</option>
+                                <option value="moscow">Moscow, Russia</option>
+                                <option value="shanghai">Shanghai, China</option>
+                                <option value="rio_de_janeiro">Rio de Janeiro, Brazil</option>
+                                <option value="berlin">Berlin, Germany</option>
+                                <option value="singapore">Singapore, Singapore</option>
+                                <option value="cairo">Cairo, Egypt</option>
+                                <option value="istanbul">Istanbul, Turkey</option>
+                                <option value="buenos_aires">Buenos Aires, Argentina</option>
+                                <option value="seoul">Seoul, South Korea</option>
+                                <option value="mexico_city">Mexico City, Mexico</option>
+                                <option value="bangkok">Bangkok, Thailand</option>
+                                <option value="cape_town">Cape Town, South Africa</option>
+                                <option value="athens">Athens, Greece</option>
+                                <option value="amsterdam">Amsterdam, Netherlands</option>
+                                <option value="rome">Rome, Italy</option>
+                                <option value="madrid">Madrid, Spain</option>
+                                <option value="jakarta">Jakarta, Indonesia</option>
+                                <option value="nairobi">Nairobi, Kenya</option>
+                                <option value="lisbon">Lisbon, Portugal</option>
+                                <option value="vancouver">Vancouver, Canada</option>
+                                <option value="hong_kong">Hong Kong, China</option>
+                                <option value="vienna">Vienna, Austria</option>
+                                <option value="sao_paulo">São Paulo, Brazil</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn1 btn-block">Add Flight</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid ">
+    <div class="main-content">
+        <h1>Flight Management</h1>
+        <div class="card">
+            <div class="card-header">Flights List</div>
+            <div class="card-body table-responsive">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="input-group" style="flex: 1;">
+                        <form class="d-flex w-100">
+                            <input type="text" class="form-control" name="textsearch" id="searchPassenger" placeholder="Search for Flight by flight NO...">
+                            <div class="input-group-append">
+                                <button class="btn btn1" type="submit">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                    <button class="btn btn1 ml-3" data-toggle="modal" data-target="#addPassengerModal">Add Flights</button>
+                </div>
+
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+
+                            <th> flight No</th>
+                            <th> Price</th>
+                           
+                            <th> Seats</th>
+                          
+                            <th>Status</th>
+                            <th class="thend" style="padding-right:3%;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var data in Model.flight_record)
+                        {
+                            <tr>
+                                <td>@data.Name</td>
+                                <td>@data.Price</td>
+                                @* <td>@data.country.Name</td>
+                                <td>@data.travel_to</td> *@
+                           
+                               
+                               @*  <td>@data.plane.plan_name</td> *@
+                               
+                                <td>@data.seat_avaiable</td>
+                              @*   <td>@data.city.city_name</td> *@
+                            
+                               
+                                <td>
+                                    @if (data.Status == 0)
+                                    {
+                                        <span>Deactivate</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="thend">Activate</span>
+                                    }
+                                </td>
+
+                                <td class="thend">
+                                    <button class="btn btn-primary btn-sm" title="Status">
+                                        <a style="color:white;" href="@Url.Action("status_flight", "admin", new { id = data.Id })">
+                                            <i class="fas fa-toggle-on"></i>
+                                        </a>
+                                    </button>
+                                    <button class="btn btn-success btn-sm" id="edit">
+                                        <a style="color:white;"
+                                           href="@Url.Action("update_flight","admin",new{id=data.Id})">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+
+
+                                    </button>
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete('P1')">
+                                        <a style="color:white;" href="@Url.Action("flight_data","admin",new{id=data.Id})">
+                                            <i class="fas fa-info-circle"></i>
+                                        </a>
+                                    </button>
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete('P1')">
+                                        <a style="color:white;" href="@Url.Action("delete_flight","admin",new{id=data.Id})">     
+                                            <i class="fas fa-trash-alt"></i>
+                                            
+                                        
+                                        </a>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+
+
+
+                    </tbody>
+                </table>
+                @if (TempData["msg"] != null)
+                {
+                    <h4 style="color:red;text-align:center;">@TempData["msg"]</h4>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+

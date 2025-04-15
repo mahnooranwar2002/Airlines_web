@@ -1,0 +1,309 @@
+﻿ @model Airlines_Booking.Models.mainmodel;
+@if (TempData["error"] != null)
+{
+    <script>
+        alert("@TempData["error"]");
+    </script>
+}
+@* <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>user profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            color: white !important;
+        }
+
+        .btn-delete a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn-update {
+            background-color: #10b981;
+            flex: 1;
+        }
+
+        .btn-delete {
+            background-color: #dc3545;
+            flex: 0 0 70px;
+            color:white!important;
+        }
+        .profile-card {
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+        }
+
+            .profile-card h2 {
+                color: #10b981;
+                text-align: center;
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+
+        .form-label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .btn-update {
+            background-color: #10b981;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+            .btn-update:hover {
+                background-color: #10b981;
+                transform: translateY(-2px);
+                color: white ;
+                font-weight: bold;
+            }
+
+        .form-control:focus {
+            border-color: #10b981;
+            
+        }
+
+        .userbg-image {
+            background-image: url('/assets/images/mah.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="userbg-image">
+        <div class="profile-card">
+            <h2>Update Profile</h2>
+            <form method="post">
+                <input name="id" value="@Model.user_data.id" type="hidden">
+                <input name="status_update" value="@Model.user_data.status_update" type="hidden">
+                <input name="Status" value="@Model.user_data.status" type="hidden">
+
+                <div class="mb-3">
+                    <label for="user_Name" class="form-label">Name</label>
+                    <input name="user_Name" value="@Model.user_data.user_name" type="text" class="form-control" id="user_Name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="user_Email" class="form-label">Email</label>
+                    <input name="user_Email" value="@Model.user_data.user_email" type="email" class="form-control" id="user_Email" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="user_password" class="form-label">Password</label>
+                    <input name="user_password" type="password" value="@Model.user_data.user_password" class="form-control" id="user_password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="user_password" class="form-label">comfrim Password</label>
+                    <input name="comfirm_password" type="password" value="@Model.user_data.comfirm_password" class="form-control" id="user_password" required>
+                </div>
+
+                
+                <div class="button-container">
+
+                    <button type="submit" class="btn btn1 btn-update">Update</button>
+                    <button class="btn btn-danger btn-delete "><a href="@Url.Action("index","website")">back</a></button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html> *@
+
+
+
+
+<div class="container-fluid">
+    <div class="main-content">
+        <h1 class="text-center mb-4">User Profile Management</h1>
+        <div class="card shadow-sm">
+            <div class="card-header text-white hhh">Update Profile</div>
+            <div class="card-body">
+                <div class="profile-card">
+                    <form method="post">
+                        <input name="id" value="@Model.user_data.id" type="hidden">
+                        <input name="status_update" value="@Model.user_data.status_update" type="hidden">
+                        <input name="Status" value="@Model.user_data.status" type="hidden">
+
+                        <div class="mb-3">
+                            <label for="user_Name" class="form-label">Name</label>
+                            <input name="user_Name" value="@Model.user_data.user_name" type="text" class="form-control" id="user_Name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="user_Email" class="form-label">Email</label>
+                            <input name="user_Email" value="@Model.user_data.user_email" type="email" class="form-control" id="user_Email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="user_password" class="form-label">Password</label>
+                            <input name="user_password" type="password" value="@Model.user_data.user_password" class="form-control" id="user_password" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="confirm_password" class="form-label">Confirm Password</label>
+                            <input name="comfirm_password" type="password" value="@Model.user_data.comfirm_password" class="form-control" id="confirm_password" required>
+                        </div>
+
+                        <div class="button-container">
+                            <button type="submit" class="btn btn1 btn-update">Update</button>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .main-content {
+        width: 100%;
+        max-width: 700px;
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+        .profile-container img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #ddd;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+    .form-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .hidden-input {
+        display: none;
+    }
+
+    .button {
+        background-color: #10b981;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+        .button:hover {
+            background-color: #10b985;
+            transform: scale(1.05);
+        }
+
+        .button:active {
+            background-color: #10b985;
+            transform: scale(0.95);
+        }
+
+    .btn-full-width {
+        width: 100%;
+    }
+
+        .btn-full-width:hover {
+            width: 100%;
+            color: white !important;
+        }
+
+    .hhh {
+        background-color: #10b981;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .btn-update {
+        background-color: #10b981;
+        flex: 1;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+        flex: 0 0 70px;
+    }
+
+        .btn-delete a {
+            color: white;
+            text-decoration: none;
+        }</style>

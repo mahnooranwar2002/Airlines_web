@@ -1,0 +1,279 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Details with Search</title>
+    <style>
+       
+
+        /* Centered search bar at the top */
+        .search-bar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #10b981;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .page-title {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+            color:white;
+        }
+
+        .search-form {
+            display: flex;
+        }
+
+            .search-form input[type="date"] {
+                padding: 8px;
+                border: 1px solid #ced4da;
+                border-radius: 5px;
+                margin-right: 10px;
+                font-size: 16px;
+            }
+            .search-form input[type="submit"] {
+                padding: 8px 16px;
+                background-color: white;
+                color: #10b981;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .search-form input[type="submit"]:hover {
+                    background-color: white;
+                    
+                }
+
+
+        /* Flight details card styling */
+        .flight-details-card {
+            background: linear-gradient(135deg, #ffffff 30%, #f1f1f1 100%);
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 900px;
+            margin: 20px auto;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .flight-details-header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #343a40;
+            font-size: 2em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .flight-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .flight-info .info-item {
+            text-align: center;
+            flex: 1;
+            padding: 0 10px;
+        }
+
+        .flight-info .info-item:not(:last-child) {
+            border-right: 2px solid #dee2e6;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .info-value {
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-top: 10px;
+            color: #495057;
+        }
+
+        .info-value i {
+            color: #28a745;
+            margin-right: 8px;
+        }
+
+        .btn-book {
+            background-color: #28a745;
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-book:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+
+        #btn-001 {
+            color: white;
+        }
+
+    
+        .page-title-area {
+            background-image: url('/assets/images/userlogin.jpg');
+        }
+
+        .page-title-area h1 {
+            color: black;
+        }
+
+        .page-title-area h6 {
+            color: black;
+        }.para{
+            text-align:center;
+            color:red;
+            font-weight:bold;
+        }
+   
+    </style>
+
+</head>
+<body>
+   
+
+    <!-- Page Title -->
+    <div class="page-title-area position-relative z-1">
+        <div class="container">
+            <div class="page-title-content text-center">
+                <h1>Flight Details</h1>
+                <h6 class="mx-auto">Welcome to Our World, Where Innovation Meets Purpose, and Possibilities Unfold.</h6>
+            </div>
+        </div>
+    </div>
+    <!-- Search bar at the top -->
+    <div class="search-bar-container">
+        <h2 class="page-title">Flight Search</h2>
+        <form class="search-form">
+            <input type="date" name="mydate" required />
+            <input type="submit" value="Search" />
+        </form>
+    </div>
+
+    <!-- Flight details -->
+    @foreach (var data in Model.flight_record)
+    {
+    <div class="flight-details-card">
+        <h2 class="flight-details-header">Flight Details</h2>
+
+        <div class="flight-info">
+            <div class="info-item">
+                <div class="info-label">Flight Number</div>
+                <div class="info-value">@data.Name</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">Origin Country to Destination Country</div>
+                <div class="info-value">
+                   @data.country.Name to @data.travel_to
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">Date</div>
+                <div class="info-value">@data.airline_date</div>
+
+            </div>
+                <div class="info-item">
+                    <div class="info-label">plane</div>
+                    <div class="info-value">@data.plane.plan_name</div>
+
+                </div>
+
+        </div>
+
+        <div class="flight-info">
+            <div class="info-item">
+                <div class="info-label">Arrival Time & Duration</div>
+                <div class="info-value">@data.Timing & @data.duration hours</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">Price</div>
+                <div class="info-value">@data.Price</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">Departure & Arrival City</div>
+                <div class="info-value">@data.city.city_name & @data.cities</div>
+            </div>
+                <div class="info-item">
+                    <div class="info-label">Seats available for classes</div>
+                    <div class="info-value">
+                     
+                        @if (@data.busneiss_seats == 0 || data.busneiss_seats == 00)
+                        {
+                            <span>No seats are available for busniess class</span>
+                        }
+                        else
+                        {
+                            
+                        
+                               <span>
+                                Busniess Class:  @data.busneiss_seats
+                               </span>                        
+
+                            
+                            }
+                        @if (@data.economy_seats == 0 || data.economy_seats == 00)
+                        {
+                            <span>No seats are available for economy class</span>
+                        }
+                        else
+                        {
+
+
+                            <span>
+                                Economy  Class:  @data.economy_seats
+
+                            </span>
+
+
+                        }
+
+                                                             </div>
+                </div>
+
+        </div>
+
+            @if(data.busneiss_seats==0 && data.economy_seats == 00)
+            {
+                <p class="para">all the seats are booked</p>
+            }
+            else
+            {
+                <div class="text-center mt-5">
+                    <a id="btn-001" href="@Url.Action("booked_flight","website",new{id=data.Id})" class="btn btn-book">Book Flight</a>
+                </div>
+            }
+            
+    </div>
+  }
+  <div class="container">
+      <div class="row">
+          <div class="col">
+                @if (TempData["date"] != null)
+                {
+                    <h3 style="text-align:center;color:red;">@TempData["date"]</h3>
+                }
+            </div>
+      </div>
+  </div>
+</body>
+</html>

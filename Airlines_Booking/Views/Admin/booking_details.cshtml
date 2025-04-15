@@ -1,0 +1,76 @@
+﻿ @model Airlines_Booking.Models.mainmodel;
+
+@{
+    Layout = "../shared/adminDashboard_layout.cshtml";
+}
+<div class="card flight-card">
+    <div class="card-body">
+        <h5 class="card-title flight-card-title">@Model.booking_data.name</h5>
+        <p class="card-text flight-details"><i class="fas fa-ticket-alt"></i> Ticket ID: <span>@Model.booking_data.ticket_id</span></p>
+        <p class="card-text flight-details"><i class="fas fa-envelope"></i> Email: <span>@Model.booking_data.email</span></p>
+        <p class="card-text flight-details"><i class="fas fa-phone"></i> Phone Number: <span>@Model.booking_data.Phone_number</span></p>
+        <p class="card-text flight-details"><i class="fas fa-calendar-day"></i> Date: <span>@Model.booking_data.date</span></p>
+        <p class="card-text flight-details"><i class="fas fa-weight-hanging"></i> Baggage weight: <span>@Model.booking_data.barrage</span></p>
+        <p class="card-text flight-details"><i class="fas fa-users"></i> Number of Passengers: <span>@Model.booking_data.Number_of_passengers</span></p>
+        <p class="card-text flight-details"><i class="fas fa-passport"></i> Broadpass: <span>@Model.booking_data.broadpass</span></p>
+        <p class="card-text flight-details"><i class="fas fa-dollar-sign"></i> Price: <span>@Model.booking_data.price</span></p>
+        <p class="card-text flight-details"><i class="fas fa-calculator"></i> Total: <span>@Model.booking_data.total</span></p>
+        <p class="card-text flight-details"><i class="fas fa-tag"></i> Category: <span>@Model.booking_data.category</span></p>
+        <p class="card-text flight-details"><i class="fas fa-credit-card"></i> Payment Mode: <span>@Model.booking_data.paymentofmode</span></p>
+        <p class="card-text flight-details"><i class="fas fa-shield-alt"></i> CVV: <span>@Model.booking_data.cvv</span></p>
+        <p class="card-text flight-details"><i class="fas fa-seat"></i> Seat Number: <span>@Model.booking_data.seat_num</span></p>
+        <p class="card-text flight-details"><i class="fas fa-seat"></i> Arrived City: <span>@Model.booking_data.city</span></p>
+
+    </div>
+</div>
+
+
+    <style >
+    .flight-card {
+        border: 2px solid #10b981;
+        border-radius: 15px;
+        padding: 20px;
+        max-width: 350px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
+
+    .badge {
+        background-color: #10b981;
+        color: #fff;
+        padding: 5px 15px;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .flight-card-title {
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+        color: #10b981;
+    }
+
+    .flight-details {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+        .flight-details i {
+            margin-right: 10px;
+            color: #10b981;
+        }
+
+        .flight-details span {
+            font-weight: bold;
+            color: #000;
+        }
+
+    
+</style>
+
+

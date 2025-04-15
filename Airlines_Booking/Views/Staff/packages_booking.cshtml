@@ -1,0 +1,88 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+@{
+    Layout = "../shared/staffDashboardlayout.cshtml";
+}
+<div class="container-fluid ">
+    <div class="main-content">
+        <h1>Packages Booking Management</h1>
+        <div class="card">
+            <div class="card-header">Packages Booking List</div>
+            <div class="card-body table-responsive">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <form class="d-flex" style="flex: 1;">
+                        <input type="text" class="form-control" name="textsearch" id="searchPassenger" placeholder="Search for package by Name...">
+                        <button class="btn btn1 ml-2" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Package Name</th>
+
+                        <th>Passangers</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>status</th>
+
+
+                        <th class="thend" style="padding-right:3%;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var data in Model.packages_booked)
+                    {
+                        <tr>
+                            <td>@data.name</td>
+                            <td>@data.email</td>
+
+                            <td>@data.packages_name</td>
+                            <td>@data.Number_of_passengers</td>
+
+                            <td>@data.price_package</td>
+                            <td>@data.total</td>
+                            <td>
+                                @if (data.status == 0)
+                                {
+                                    <span>pending</span>
+                                }
+                                else
+                                {
+                                    <span>approved</span>
+
+
+                                }
+                            </td>
+                            <td class="thend">
+
+                                <button class="btn btn-success btn-sm" id="edit">
+                                    <a style="color:white;"
+                                       href="@Url.Action("status_bookedpackage","staff",new{id=data.booked_Id})">
+                                        <i class="fas fa-toggle-on"></i>
+                                    </a>
+
+
+                                </button>
+                                
+                            </td>
+                        </tr>
+                    }
+
+
+
+                </tbody>
+            </table>
+            @if (TempData["msg"] != null)
+            {
+                <h4 style="color:red;text-align:center;">@TempData["msg"]</h4>
+            }
+        </div>
+    </div>
+</div>
+

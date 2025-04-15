@@ -1,0 +1,273 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Airlines_Booking
+build_property.RootNamespace = Airlines_Booking
+build_property.ProjectDir = C:\Users\Mahnoor Anwar\Desktop\Aptech\Shopesefinalvision\Shopesefinalvision\Airlines_Booking\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Mahnoor Anwar\Desktop\Aptech\Shopesefinalvision\Shopesefinalvision\Airlines_Booking
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/admin_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWRtaW5fZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/admin_login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWRtaW5fbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/bookingTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYm9va2luZ1RpY2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/booking_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYm9va2luZ19kZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/cities_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cY2l0aWVzX2RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/contact_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cY29udGFjdF9kZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/country_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cY291bnRyeV9kZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/detailspage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGV0YWlsc3BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/flight_data.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmxpZ2h0X2RhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/flight_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmxpZ2h0X2RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/Packagesbooked_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFja2FnZXNib29rZWRfZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/packages_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5ccGFja2FnZXNfZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/plan_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5ccGxhbl9kZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/staff_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cc3RhZmZfZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/update_admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlX2FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/update_city.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlX2NpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/update_country.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlX2NvdW50cnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/update_flight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlX2ZsaWdodC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/update_package.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlX3BhY2thZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/update_plan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlX3BsYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/update_staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlX3N0YWZmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/user_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXNlcl9kZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Admin/waitedpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cd2FpdGVkcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Shared/adminDashboard_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGFkbWluRGFzaGJvYXJkX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Shared/staffdashboardLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHN0YWZmZGFzaGJvYXJkTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Staff/booked_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcYm9va2VkX2RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Staff/booking_detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcYm9va2luZ19kZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Staff/booking_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcYm9va2luZ19kZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Staff/flight_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcZmxpZ2h0X2RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Staff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Staff/packages_booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZccGFja2FnZXNfYm9va2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Staff/staff_login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcc3RhZmZfbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Staff/update_staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcdXBkYXRlX3N0YWZmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/User/user_login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1c2VyX2xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/User/user_profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1c2VyX3Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/User/user_register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1c2VyX3JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxhYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxibG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/blog_detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxibG9nX2RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/booked_flight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxib29rZWRfZmxpZ2h0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/borading_pass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxib3JhZGluZ19wYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/destination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxkZXN0aW5hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/destination_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxkZXN0aW5hdGlvbl9kZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/faq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxmYXEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/flight_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxmbGlnaHRfZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxnYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/not_found.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxub3RfZm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/our_team.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxvdXJfdGVhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/Packages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxQYWNrYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/packages_booked.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxwYWNrYWdlc19ib29rZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/Testimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVxUZXN0aW1vbmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/trackyourflight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVx0cmFja3lvdXJmbGlnaHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Website/viewHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vic2l0ZVx2aWV3SGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahnoor Anwar/Desktop/Aptech/Shopesefinalvision/Shopesefinalvision/Airlines_Booking/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jwyrsqv6d1

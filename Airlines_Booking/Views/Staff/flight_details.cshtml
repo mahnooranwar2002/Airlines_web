@@ -1,0 +1,222 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+
+
+@{
+    Layout = "../shared/staffDashboardlayout.cshtml";
+}
+@if (TempData["flight_added"] != null)
+{
+    <script>
+        alert("@TempData["flight_added"]");
+    </script>
+}
+@* for add *@
+
+<div class="modal fade" id="addPassengerModal" tabindex="-1" aria-labelledby="addPassengerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addPassengerModalLabel">Add New Flight</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" asp-action="add_flights" asp-controller="Staff">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="Name" id="name" required pattern="[A-Za-z0-9]{3,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name"> Price</label>
+                        <input type="text" class="form-control" name="Price" id="name" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Seats Availble</label>
+                        <input type="text" class="form-control" name="Seats" id="name" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">timing</label>
+                        <input type="time" class="form-control" name="Timing" id="name" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Duration</label>
+                        <input type="text" class="form-control" name="duration" id="name" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Date</label>
+                        <input type="date" class="form-control" name="airline_date" id="name" required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Departure</label>
+                        <select id="gender" name="city_id" required>
+                            <option hidden>Travel from City</option>
+                            @foreach (var data in Model.cityrecord)
+                            {
+                                <option value="@data.id">@data.city_name</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">selct plane</label>
+                        <select id="gender" name="Plane_id" required>
+                            <option hidden>Select the plane</option>
+                            @foreach (var data in Model.plan_record)
+                            {
+                                <option value="@data.id">@data.plan_name</option>
+                            }
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Select Country</label>
+                        <select id="gender" name="travel_from" required>
+                            <option hidden>tarvel from of country</option>
+                            @foreach (var data in Model.countries_record)
+                            {
+                                <option value="@data.Id">@data.Name</option>
+                            }
+                        </select>
+
+                        <div class="form-group">
+                            <label for="name">selct Country</label>
+                            <select id="gender" name="travel_to" required>
+                                <option hidden>Travel to of Country</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Canada">Canada</option>
+                                <option value="China">China</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="France">France</option>
+                                <option value="Germany">Germany</option>
+                                <option value="India">India</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="Russia">Russia</option>
+                                <option value="Saudi Arabia">Saudi Arabia</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="South Korea">South Korea</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Turkey">Turkey</option>
+                                <option value="United Arab Emirates">United Arab Emirates</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="United States">United States</option>
+                                <option value="Vietnam">Vietnam</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Bangladesh">Bangladesh</option>
+
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn1 btn-block">Add Flight</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid ">
+    <div class="main-content">
+        <h1>Flight Management</h1>
+        <div class="card">
+            <div class="card-header">Flights List</div>
+            <div class="card-body table-responsive">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <form class="d-flex" style="flex: 1;">
+                        <div class="input-group" style="flex: 1;">
+                            <input type="text" class="form-control" name="textsearch" id="searchPassenger" placeholder="Search for flight by Name...">
+                            <div class="input-group-append">
+                                <button class="btn btn1" type="submit">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn btn1 ml-3" data-toggle="modal" data-target="#addPassengerModal">Add Flights</button>
+                </div>
+
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+
+                            <th> Name</th>
+                            <th> Price</th>
+                            <th> Origin Country</th>
+                            <th> Arrival  Country</th>
+                            <th> Seats</th>
+                            <th> Plane</th>
+                            <th> price</th>
+                            <th>Departure</th>
+                            <th> Duration</th>
+                            <th>Timing</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var data in Model.flight_record)
+                        {
+                            <tr>
+                                <td>@data.Name</td>
+                                <td>@data.Price</td>
+                                <td>@data.country.Name</td>
+                                <td>@data.travel_to</td>
+                                <td>@data.Seats</td>
+                                <td>@data.plane.plan_name</td>
+                                <td>@data.Price</td>
+                                <td>@data.city.city_name</td>
+                                <td> @data.duration</td>
+                                <td>@data.Timing</td>
+                                @if (data.Status == 0)
+                                {
+                                    <td>Deactivate</td>
+                                }
+                                else
+                                {
+                                    <td>Activate</td>
+                                }
+
+
+                                <td class="thend">
+                                    <button class="btn btn-primary btn-sm" title="Status">
+                                        <a style="color:white;" href="@Url.Action("flight_status", "staff", new { id = data.Id })">
+                                            <i class="fas fa-toggle-on"></i>
+                                        </a>
+                                    </button>
+                                 
+
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete('P1')">
+                                        <a style="color:white;" href="@Url.Action("delete_flight","staff",new{id=data.Id})">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+
+
+
+                    </tbody>
+                </table>
+                @if (TempData["msg"] != null)
+                {
+                    <h4 style="color:red;text-align:center;">@TempData["msg"]</h4>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

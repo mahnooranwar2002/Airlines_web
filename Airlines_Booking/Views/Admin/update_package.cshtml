@@ -1,0 +1,135 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+@{
+    Layout = "../shared/adminDashboard_layout.cshtml";
+}
+@if (TempData["country_added"] != null)
+{
+    <script>
+        alert("@TempData["country_added"]");
+    </script>
+}
+
+
+<div class="container-fluid">
+    <div class="main-content">
+        <h1 class="text-center mb-4">Packages Management</h1>
+        <div class="card shadow-sm">
+            <div class="card-header  text-white">Edit packages </div>
+            <div class="card-body table-responsive">
+
+
+                <form method="post">
+                    <input type="hidden" value="@Model.packages_data.Id" name="Id">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" value="@Model.packages_data.Name" name="Name" id="name" required pattern="[A-Za-z0-9]{3,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Price</label>
+                        <input type="text" value="@Model.packages_data.Price" class="form-control" name="Price" id="name" required pattern="[0-9]{2,}" tittle="the count of seat must be greater then 9" placeholder="Enter seats">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Quantity</label>
+                        <input type="text" value="@Model.packages_data.Quantity" class="form-control" name="Quantity" id="name" required pattern="[0-9]{2,}" tittle="the count of seat must be greater then 9" placeholder="Enter Seats">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Description</label>
+                        <textarea class="form-control" name="Description">@Model.packages_data.Description</textarea>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="btn btn1 btn-update">Update Packages</button>
+                        <button class="btn btn-delete"><a href="@Url.Action("packages_details","admin")">back</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .button-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .btn-update {
+        background-color: #10b981;
+        flex: 1;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+        flex: 0 0 70px;
+    }
+
+        .btn-delete a {
+            color: white;
+            text-decoration: none;
+        }
+
+    .main-content {
+        max-width: 700px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .card-header {
+        font-size: 1.25rem;
+        font-weight: bold;
+        border-bottom: none;
+        background-color: #28a745;
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+
+    .admin-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .admin-form .form-control {
+        border-radius: 5px;
+        box-shadow: none;
+        border-color: #ddd;
+    }
+
+        .admin-form .form-control:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+    .btn {
+        border-radius: 5px;
+    }
+
+    .search-bar .form-control {
+        border-right: none;
+        border-radius: 5px 0 0 5px;
+    }
+
+    .search-bar .input-group-append .btn {
+        border-left: none;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .btn-block {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    }
+</style>

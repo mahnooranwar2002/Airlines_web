@@ -1,0 +1,83 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+
+
+@{
+    Layout = "../shared/adminDashboard_layout.cshtml";
+}
+
+<div class="card flight-card">
+    <div class="card-body">
+       
+            <h5 class="card-title flight-card-title">@Model.flight_data.Name</h5>
+            <p class="card-text flight-details"> Busniess Seats: <span>@Model.flight_data.busneiss_seats</span></p>
+            <p class="card-text flight-details"> Economy Seats: <span>@Model.flight_data.economy_seats</span></p>
+            <p class="card-text flight-details"> Total Seats <span>@Model.flight_data.seat_avaiable</span></p>
+            <p class="card-text flight-details"> Date: <span>@Model.flight_data.airline_date</span></p>
+            
+            <p class="card-text flight-details"> Arrived Time: <span>@Model.flight_data.arrived_time</span></p>
+            <p class="card-text flight-details"> Departure: <span>@Model.flight_data.Timing</span></p>
+            <p class="card-text flight-details"> Duaration: <span>@Model.flight_data.duration</span></p>
+            <p class="card-text flight-details"> Price: <span>@Model.flight_data.Price</span></p>
+         
+        @foreach(var data in Model.countries_record)
+        {
+               <p class="card-text flight-details"> Oringin Country:@data.Name</p> 
+        }
+            <p class="card-text flight-details"> Destination Country:@Model.flight_data.travel_to</p>    
+        @foreach(var city in Model.cityrecord)
+        {
+               <p class="card-text flight-details"> Departure City:@city.city_name</p> 
+        }   <p class="card-text flight-details"> Destination City:@Model.flight_data.cities</p>
+    </div>
+</div>
+
+
+    <style >
+    .flight-card {
+        border: 2px solid #10b981;
+        border-radius: 15px;
+        padding: 20px;
+        max-width: 350px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
+
+    .badge {
+        background-color: #10b981;
+        color: #fff;
+        padding: 5px 15px;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .flight-card-title {
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+        color: #10b981;
+    }
+
+    .flight-details {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+        .flight-details i {
+            margin-right: 10px;
+            color: #10b981;
+        }
+
+        .flight-details span {
+            font-weight: bold;
+            color: #000;
+        }
+
+    
+</style>
+
+

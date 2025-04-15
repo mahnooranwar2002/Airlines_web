@@ -1,0 +1,107 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+@if (TempData["error123"] != null)
+{
+    <script>
+        alert("@TempData["error123"]");
+    </script>
+}
+<style>
+     .page-title-area {
+         background-image: url('/assets/images/userlogin.jpg');
+     }
+
+         .page-title-area h1 {
+             color: black;
+         }
+
+         .page-title-area h6 {
+             color: black;
+         }
+</style> <!-- Start Page Title Area -->
+<div class="page-title-area position-relative z-1">
+    <div class="container">
+        <div class="page-title-content text-center">
+            <h1>packages</h1>
+            <h6 class="mx-auto">Welcome to Our World, Where Innovation Meets Purpose, and Possibilities Unfold.</h6>
+        </div>
+    </div>
+</div>
+
+
+@* @foreach(var data in Model.packages_record)
+{
+    <div class="card" style="width: 18rem;">
+       
+        <div class="card-body">
+            <h5 class="card-title">@data.Name</h5>
+            <p class="card-text">@data.Price</p>
+            <p class="card-text">@data.Description</p>
+            @if (data.Quantity == 0)
+            {
+                //ye p red colour m ayenge or card k bich m
+                <p>not available</p>
+            }
+            else
+            {
+                <a href="@Url.Action("packages_booked","website",new{id=data.Id})" class="btn btn-primary">Book Now</a>
+
+            }
+            </div>
+    </div>
+} *@
+
+
+
+<!-- Start Pricing Area -->
+<div class="pricing-area pt-100 pb-75 position-relative z-1">
+    <div class="container">
+        <div class="section-title style-2" data-cue="slideInUp">
+            <span class="d-block sub-title fw-bold">Our Travel Packages</span>
+            <h2>Affordable holiday deals for popular destinations.</h2>
+        </div>
+        <div class="row justify-content-center" data-cue="slideInUp">
+            @foreach (var data in Model.packages_record)
+            {   
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-pricing-card">
+                        <div class="content position-relative">
+                            <h3>@data.Name</h3>
+                            <p>@data.Description</p>
+                            <div class="icon d-inline-block">
+                                <i class="ph-fill ph-airplane-tilt"></i>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <ul class="list-unstyled ps-0 mb-0">
+                                <li>
+                                    <i class="ph-bold ph-check"></i>
+                                    Price: <strong>@data.Price</strong>
+                                </li>
+                                @if (data.Quantity == 0)
+                                {
+                                    <li>
+                                        
+                                        <p style="color: red; text-align: center;">Not Available</p>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                                                    <a href="@Url.Action("packages_booked", "website", new { id = data.Id })" class="d-inline-block text-decoration-none text-center">
+                                            Book Now
+                                          
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="background-color">
+        <img src="~/assets/images/pricing-bg-shape.jpg" alt="background-color">
+    </div>
+</div>
+<!-- End Pricing Area -->

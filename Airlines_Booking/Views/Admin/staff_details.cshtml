@@ -1,0 +1,150 @@
+﻿@model Airlines_Booking.Models.mainmodel;
+
+
+@{
+    Layout = "../shared/adminDashboard_layout.cshtml";
+}
+@if (TempData["staff_added"] != null)
+{
+    <script>
+        alert("@TempData["staff_added"]");
+    </script>
+}
+@* for add *@
+
+<div class="modal fade" id="addPassengerModal" tabindex="-1" aria-labelledby="addPassengerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addPassengerModalLabel">Add New staff</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" asp-action="add_staaff" asp-controller="admin">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="Name" id="name"
+                        required pattern="[A-Za-z0-9]{3,}"
+                        title="Username must be at least 5 characters long and contain only letters and numbers." 
+                        placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">User Name</label>
+                        <input type="text"
+                            class="form-control" name="Username"
+                            id="name" required title="Username must be at
+least 5 characters long and contain only letters and numbers." placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="email" class="form-control" name="Email" id="name" 
+                        required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Age</label>
+                        <input type="text" class="form-control" name="Age" id="name" required placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Password</label>
+                        <input type="text" class="form-control" name="Password" id="name"
+                        required title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter password">
+
+                    </div>
+                
+                    
+                    <button type="submit" class="btn btn1 btn-block">Add staff</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid ">
+    <div class="main-content">
+        <h1>Staff Management</h1>
+        <div class="card">
+            <div class="card-header">Staff List</div>
+            <div class="card-body table-responsive">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="input-group" style="flex: 1;">
+                        <form class="d-flex" style="width: 100%;">
+                            <input type="text" class="form-control" name="textsearch" id="searchPassenger" placeholder="Search for staff by User_Name..." style="flex: 1;">
+                            <div class="input-group-append">
+                                <button class="btn btn1" type="submit">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                    <button class="btn btn1 ml-3" data-toggle="modal" data-target="#addPassengerModal">Add staff</button>
+                </div>
+
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+
+                            <th> Name</th>
+                            <th> User Name</th>
+                            <th> password</th>
+                            <th> Age</th>
+                            <th> status</th>
+
+                            <th class="thend " style="padding-right:3.5%;text-align:end">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var data in Model.staff_record)
+                        {
+                            <tr>
+                                <td>@data.Name</td>
+                                <td>@data.Username</td>
+
+                                <td>@data.Password</td>
+
+                                <td>@data.Age</td>
+                                <td>@data.status_update</td>
+                                <td class="thend">
+                                    <button class="btn btn-success btn-sm" id="edit" title="Update">
+                                        <a style="color:white;" href="@Url.Action("Status_staff", "admin", new { id = data.Id })">
+                                        <i class="fas fa-toggle-on"></i>
+                                        </a>
+                                    </button>
+                                    
+                                    <button class="btn btn-success btn-sm" id="edit"  title="Update">
+                                        <a style="color:white;" href="@Url.Action("update_staff", "admin", new { id = data.Id })">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                    </button>
+
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete('P1')" title="Delete">
+                                        <a style="color:white;" href="@Url.Action("delete_staff", "admin", new { id = data.Id })">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </button>
+                                </td>
+
+                            </tr>
+                        }
+
+
+
+                    </tbody>
+                </table>
+                @if (TempData["msg"] != null)
+                {
+                    <h4 style="color:red;text-align:center;">@TempData["msg"]</h4>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .thend {
+        text-align: end;
+    }
+</style>

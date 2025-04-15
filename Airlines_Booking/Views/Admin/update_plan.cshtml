@@ -1,0 +1,138 @@
+﻿@{
+    Layout = "../shared/adminDashboard_layout.cshtml";
+}
+
+
+
+<div class="container-fluid">
+    <div class="main-content">
+        <h1 class="text-center mb-4">Areoplan Management</h1>
+        <div class="card shadow-sm">
+            <div class="card-header  text-white">Edit Areoplan</div>
+            <div class="card-body table-responsive">
+
+               
+
+                <form method="post">
+                    <div class="form-group">
+                        <input type="hidden" value="@Model.plan_data.id" name="id">
+
+                        <label for="name">Areoplane id</label>
+                        <input type="text" readonly value="@Model.plan_data.plan_id" class="form-control" name="plan_id" id="name" required pattern="[A-Za-z0-9]{3,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" value="@Model.plan_data.plan_name" name="plan_name" id="name" required pattern="[A-Za-z0-9]{3,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Seat Available for Business Class</label>
+                        <input type="text" class="form-control" value="@Model.plan_data.busneiss_seats" name="busneiss_seats" id="name" required pattern="[0-9]{2,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Seat Available for Economy Class</label>
+                        <input type="text" class="form-control" value="@Model.plan_data.economy_seats" name="economy_seats" id="name" required pattern="[0-9]{2,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Seat Available</label>
+                        <input type="text" readonly class="form-control" value="@Model.plan_data.seat_avaiable" name="seat_avaiable" id="name" required pattern="[0-9]{2,}" title="Username must be at least 5 characters long and contain only letters and numbers." placeholder="Enter name">
+                    </div>
+
+                    <div class="button-container">
+                        <button type="submit" class="btn btn1 btn-update">Update plan</button>
+                        <button class="btn  btn-delete"><a href="@Url.Action("plan_details","admin")">Back</a></button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .button-container {
+        display: flex;
+        gap: 10px; 
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .btn-update {
+        background-color: #10b981; 
+        flex: 1; 
+    }
+
+    .btn-delete {
+        background-color: #dc3545; 
+        flex: 0 0 70px; 
+    }
+
+        .btn-delete a {
+            color: white; 
+            text-decoration: none; 
+        }
+
+
+    .main-content {
+        max-width: 700px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .card-header {
+        font-size: 1.25rem;
+        font-weight: bold;
+        border-bottom: none;
+        background-color: #28a745;
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+
+    .admin-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .admin-form .form-control {
+        border-radius: 5px;
+        box-shadow: none;
+        border-color: #ddd;
+    }
+
+        .admin-form .form-control:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+    .btn {
+        border-radius: 5px;
+    }
+
+    .search-bar .form-control {
+        border-right: none;
+        border-radius: 5px 0 0 5px;
+    }
+
+    .search-bar .input-group-append .btn {
+        border-left: none;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .btn-block {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    }
+</style>

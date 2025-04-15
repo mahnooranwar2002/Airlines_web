@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        <style >
+
+
+
+        .boarding-pass {
+            width: 600px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            display: flex;
+            background-color: #10b981 !important;
+            color: white;
+            padding: 15px;
+        }
+
+            .header .left-section {
+                flex: 1;
+            }
+
+            .header .right-section {
+                text-align: right;
+                flex: 1;
+            }
+
+        .details {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+            .details .passenger-info {
+                flex: 1;
+            }
+
+            .details .flight-info {
+                text-align: right;
+                flex: 1;
+            }
+
+            .details p {
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+        .barcode {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .barcode-line {
+            width: 80%;
+            height: 60px;
+            background: repeating-linear-gradient( 90deg, #000, #000 2px, #fff 2px, #fff 4px );
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="boarding-pass">
+        <div class="header">
+            <div class="left-section">
+                <h2>SHOPEASE AIR TICKET</h2>
+            </div>
+            <div class="right-section">
+                <h3>Boarding Pass</h3>
+            </div>
+        </div>
+        <div class="details">
+            <div class="passenger-info">
+
+                <p><strong>Ticket Id:</strong> {{t_id}}</p>
+
+                <p><strong>Passenger:</strong> {{name}}</p>
+                <p><strong>Date:</strong> {{date}}</p>
+                <p><strong>Flight  No:</strong>{{flight_name}} </p>
+                <p><strong>Class:</strong> {{class}}</p>
+                <p><strong>Seat No:</strong> {{seat}}</p>
+                <p><strong>Gate No:</strong> {{gate}}</p>
+                <p><strong>To:</strong>{{city}} </p>
+            </div>
+            <div class="flight-info">
+                <p><strong>Ticket Id:</strong> {{t_id}}</p>
+
+                <p><strong>Date:</strong> {{date}}</p>
+                <p><strong>Time:</strong> {{time}}</p>
+
+                <p><strong>Seat No:</strong> {{seat}}</p>
+                <p><strong>Gate No:</strong>{{gate}} </p>
+                <p><strong>To:</strong>{{city}} </p>
+            </div>
+        </div>
+
+        <div class="barcode">
+            <div class="barcode-line"></div>
+        </div>
+    </div>
+</body>
+</html>

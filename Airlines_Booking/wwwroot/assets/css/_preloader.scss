@@ -1,0 +1,96 @@
+.preloader-area {
+    z-index: 9999;
+    background-color: var(--whiteColor);
+
+    .preloader {
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        .waviy {
+            margin-top: 20px;
+            font: {
+                size: 60px;
+                family: var(--headingFontFamily);
+            };
+            span {
+                animation-delay: .1s;
+                color: var(--blackColor);
+                animation: waviy 1s infinite;
+
+                &:nth-child(2) {
+                    animation-delay: .2s;
+                }
+                &:nth-child(3) {
+                    animation-delay: .3s;
+                }
+                &:nth-child(4) {
+                    animation-delay: .4s;
+                }
+                &:nth-child(5) {
+                    animation-delay: .5s;
+                }
+            }
+        }
+    }
+    &.deactivate {
+        display: none;
+    }
+}
+@keyframes waviy {
+    0%, 40%, 100% {
+        transform: translateY(0)
+    }
+    20% {
+        transform: translateY(-15px)
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    .preloader-area {
+        .preloader {
+            .waviy {
+                font-size: 30px;
+            }
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .preloader-area {
+        .preloader {
+            .waviy {
+                font-size: 45px;
+            }
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .preloader-area {
+        .preloader {
+            .waviy {
+                font-size: 55px;
+            }
+        }
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {}
